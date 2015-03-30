@@ -3,16 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ang.roadcondition.CollectFragment">
+    tools:context="com.example.roadcondition.CollectFragment">
 
-    <TextView
-        android:id="@+id/collectRoute"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="fill_horizontal"
-        android:gravity="center_horizontal"
-        android:text="@string/collectList"
-        android:textSize="30sp"/>
+    
+    <RelativeLayout
+	    android:id="@+id/homepage_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="@color/blue">
+	    
+        <ImageView
+            android:id="@+id/upload_title_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/back" />
+                
+    	<TextView
+	    	android:id="@+id/collectRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+	</RelativeLayout>
+
 
     <LinearLayout
         android:layout_width="wrap_content"

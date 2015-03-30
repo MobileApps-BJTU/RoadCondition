@@ -1,8 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">不堵路况</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">不堵路况</string>
+    <string name="action_settings">设置</string>
+    <string name="string_button_myCollections">我的收藏</string>
+    <string name="string_upload">上传路况</string>
+    <string name="string_search">查询路况</string>
+    <string name="string_get_current_position">请点击按钮获取当前位置</string>
+    <string name="string_button_get">获取</string>
+    <string name="string_hint_road_instruction">路况说明</string>
     <string name="title_activity_collect">收藏列表</string>
 
     <string name="query">搜索收藏路段</string>
@@ -21,4 +27,5 @@
     <string name="cancel">取消</string>
     <string name="OK">确定</string>
     <string name="confirmMessage">你确定想要删除路线 \"%s\"?</string>
+
 </resources>

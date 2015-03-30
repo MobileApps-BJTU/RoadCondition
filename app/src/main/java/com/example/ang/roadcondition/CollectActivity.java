@@ -1,10 +1,10 @@
-package com.example.ang.roadcondition;
+package com.example.roadcondition;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-public class CollectActivity extends ActionBarActivity implements CollectFragment.OnFragmentInteractionListener{
+public class CollectActivity extends Activity implements CollectFragment.OnFragmentInteractionListener{
     private static final String COLLECTS = "collects";
     public static SharedPreferences savedRoute;
     private ArrayList<String> collects;
@@ -85,8 +85,8 @@ public class CollectActivity extends ActionBarActivity implements CollectFragmen
         savedRoute = getSharedPreferences(COLLECTS, MODE_PRIVATE);
 
         SharedPreferences.Editor editor = savedRoute.edit();
-        editor.putString("è·¯çº¿1", "è¥¿ç›´é—¨=åŒ—äº¤å¤§=è¥¿ç›´é—¨-åŒ—äº¤å¤§=è·¯å†µä¿¡æ¯è‰¯å¥½");
-        editor.putString("è·¯çº¿2", "è¥¿ç›´é—¨=åŒ—äº¤å¤§=è¥¿ç›´é—¨-äº¤å¤§ä¸œè·¯-åŒ—äº¤å¤§=äº¤å¤§ä¸œè·¯ä¸¤è½¦ç›¸æ’ï¼Œè·¯å†µè¾ƒå·®");
+        editor.putString("Â·Ïß1", "Î÷Ö±ÃÅ=±±½»´ó=Î÷Ö±ÃÅ-±±½»´ó=Â·¿öĞÅÏ¢Á¼ºÃ");
+        editor.putString("Â·Ïß2", "Î÷Ö±ÃÅ=±±½»´ó=Î÷Ö±ÃÅ-½»´ó¶«Â·-±±½»´ó=½»´ó¶«Â·Á½³µÏà×²£¬Â·¿ö½Ï²î");
         editor.commit();
 
         collects = new ArrayList<String>(savedRoute.getAll().keySet());
@@ -99,14 +99,6 @@ public class CollectActivity extends ActionBarActivity implements CollectFragmen
         getFragmentManager().beginTransaction()
                 .add(R.id.fragment_holder,cf)
                 .commit();
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_collect, menu);
-        return true;
     }
 
     @Override

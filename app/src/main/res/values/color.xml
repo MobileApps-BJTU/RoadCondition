@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#66c427</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#f0f0f0</color>
+    <color name="grey_deep">#8B8878</color>
+    <color name="divider">#d9d9d9</color>
+    <color name="address">#999999</color>
+    <color name="price">#ff7a2a</color>
+    <color name="green_press">#27c45f</color>
+    <color name="blue">#27a8c4</color>
+    <color name="red">#EE0000</color>
+</resources>
