@@ -1,0 +1,78 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ang.roadcondition.ShowDetailFragment">
+
+    <TextView
+        android:id="@+id/routeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="60dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/from"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/to"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/route"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/infor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/route"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/infor"
+        android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infor"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/refresh"
+            android:textSize="20sp"/>
+</RelativeLayout>
+</FrameLayout>
