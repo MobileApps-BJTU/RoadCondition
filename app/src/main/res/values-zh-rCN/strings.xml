@@ -10,9 +10,6 @@
     <string name="string_button_get">获取</string>
     <string name="string_hint_road_instruction">路况说明</string>
     <string name="title_activity_collect">收藏列表</string>
-    <string name="title_activity_query_route">搜索路段</string>
-    <string name="title_activity_routes_list">路段列表</string>
-    <string name="title_activity_routes_info">路段信息</string>
 
     <string name="query">搜索收藏路段</string>
     <string name="collectList">收藏路段</string>
@@ -31,42 +28,4 @@
     <string name="OK">确定</string>
     <string name="confirmMessage">你确定想要删除路线 \"%s\"?</string>
 
-    <string name="city_textview">城市</string>
-    <string name="start_textview">起点</string>
-    <string name="end_textview">终点</string>
-    <string name="search_button">查询</string>
-    <string name="clean_button">清除</string>
-    <string name="collect_button">收藏</string>
-
-    <string name="arrow_textview">----></string>
-
-
-    <string-array name="route_info">
-        　	<item>距离: 9.9 公里</item>
-        　　			<item>时间: 大约 28 分</item>
-        　　			<item>经过: 阜成门南大道</item>
-        　　			<item>                 辟才胡同</item>
-        <item>                 前门西街</item>
-        　　			<item>                前门东街</item>
-        <item>红绿灯数目: 4</item>
-        　　			<item>交通拥堵率: 45% </item>
-    </string-array>
-
-    <string-array name="route_name">
-        　         	<item>起点-->海洋馆-->宣武门-->终点</item>
-        　　			<item>起点-->地坛-->东单-->终点</item>
-        　　			<item>起点-->火车南站-->宣武门-->终点</item>
-        　　
-    </string-array>
-
-    <string-array name="route_detail">
-        　         	<item>1 小时 | 12.9km</item>
-        　　			<item>1.2 小时 | 13.5km</item>
-        　　			<item>56 分 | 10.3km</item>
-        　　
-    </string-array>
-    <string name="routeList">路段列表</string>
-    <string name="routeInfo">路段信息</string>
-    <string name="queryRoute">设定路线</string>
-    <string name="missingMessage">请输入起点和终点</string>
 </resources>

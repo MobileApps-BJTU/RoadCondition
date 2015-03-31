@@ -1,10 +1,9 @@
-package com.example.ang.roadcondition;
+package com.example.roadcondition;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
@@ -25,12 +24,6 @@ public class CollectActivity extends Activity implements CollectFragment.OnFragm
                 replace(R.id.fragment_holder, ShowDetailFragment.newInstance(collect,infor))
                 .addToBackStack(null)
                 .commit();
-    }
-
-    public void clickButton(){
-        Intent intent = new Intent();
-        intent.setClass(CollectActivity.this, QueryRouteActivity.class);
-        startActivity(intent);
     }
 
     public void deleteCollect(final String collect){
@@ -92,8 +85,8 @@ public class CollectActivity extends Activity implements CollectFragment.OnFragm
         savedRoute = getSharedPreferences(COLLECTS, MODE_PRIVATE);
 
         SharedPreferences.Editor editor = savedRoute.edit();
-        editor.putString("è·¯çº¿1", "è¥¿ç›´é—¨=åŒ—äº¤å¤§=è¥¿ç›´é—¨-åŒ—äº¤å¤§=è·¯å†µä¿¡æ¯è‰¯å¥½");
-        editor.putString("è·¯çº¿2", "è¥¿ç›´é—¨=åŒ—äº¤å¤§=è¥¿ç›´é—¨-äº¤å¤§ä¸œè·¯-åŒ—äº¤å¤§=äº¤å¤§ä¸œè·¯ä¸¤è½¦ç›¸æ’ï¼Œè·¯å†µè¾ƒå·®");
+        editor.putString("Â·Ïß1", "Î÷Ö±ÃÅ=±±½»´ó=Î÷Ö±ÃÅ-±±½»´ó=Â·¿öĞÅÏ¢Á¼ºÃ");
+        editor.putString("Â·Ïß2", "Î÷Ö±ÃÅ=±±½»´ó=Î÷Ö±ÃÅ-½»´ó¶«Â·-±±½»´ó=½»´ó¶«Â·Á½³µÏà×²£¬Â·¿ö½Ï²î");
         editor.commit();
 
         collects = new ArrayList<String>(savedRoute.getAll().keySet());

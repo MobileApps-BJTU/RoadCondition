@@ -1,4 +1,4 @@
-package com.example.ang.roadcondition;
+package com.example.roadcondition;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -37,13 +37,19 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent();
-                intent.setClass(MainActivity.this, CollectActivity.class);
+				Intent intent = new Intent();intent.setClass(MainActivity.this, CollectActivity.class);
 		        startActivity(intent);
 			}
 			
 		});
 		 
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
 	}
 
 }

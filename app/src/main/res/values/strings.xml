@@ -10,9 +10,6 @@
     <string name="string_button_get">Get</string>
     <string name="string_hint_road_instruction">Condition Introduce</string>
     <string name="title_activity_collect">Collect List</string>
-    <string name="title_activity_query_route">QueryRouteActivity</string>
-    <string name="title_activity_routes_list">Routes_listActivity</string>
-    <string name="title_activity_routes_info">RoutesInfoActivity</string>
 
     <string name="query">query you collect route</string>
     <string name="collectList">Collect Route</string>
@@ -31,43 +28,4 @@
     <string name="OK">OK</string>
     <string name="confirmMessage">Are you sure you want to delete the route \"%s\"?</string>
 
-
-    <string name="city_textview">City</string>
-    <string name="start_textview">From</string>
-    <string name="end_textview">To</string>
-    <string name="search_button">Search</string>
-    <string name="clean_button">Clean</string>
-    <string name="collect_button">Collect Now</string>
-
-    <string name="arrow_textview">----></string>
-
-
-    <string-array name="route_info">
-        　	<item>Distance: 9.9 kilometer</item>
-        　　			<item>Time: About 28 min</item>
-        　　			<item>pass by : FuChenMen South Street</item>
-        　　			<item>                 Picai HuTong</item>
-        <item>                 QianMen West Street</item>
-        　　			<item>                 QianMen East Street</item>
-        <item>Number of traffic light: 4</item>
-        　　			<item>traffic jam rate: 45% </item>
-    </string-array>
-
-    <string-array name="route_name">
-        　         	<item>start-->Aquariums-->XuanWuMen-->end</item>
-        　　			<item>start-->Ditan-->DongDan-->end</item>
-        　　			<item>start-->North Train Station-->XuanWuMen-->end</item>
-        　　
-    </string-array>
-
-    <string-array name="route_detail">
-        　         	<item>1 hour | 12.9km</item>
-        　　			<item>1.2 hour | 13.5km</item>
-        　　			<item>56 min | 10.3km</item>
-        　　
-    </string-array>
-    <string name="routeList">Route List</string>
-    <string name="routeInfo">Route Infor</string>
-    <string name="queryRoute">Query Route</string>
-    <string name="missingMessage">Please enter both start and end</string>
 </resources>
