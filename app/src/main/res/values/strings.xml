@@ -13,6 +13,7 @@
     <string name="title_activity_query_route">QueryRouteActivity</string>
     <string name="title_activity_routes_list">Routes_listActivity</string>
     <string name="title_activity_routes_info">RoutesInfoActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
 
     <string name="query">query you collect route</string>
     <string name="collectList">Collect Route</string>
@@ -70,4 +71,13 @@
     <string name="routeInfo">Route Infor</string>
     <string name="queryRoute">Query Route</string>
     <string name="missingMessage">Please enter both start and end</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="viberateOpen">Open Viberate</string>
+    <string name="autoLogin">Auto Login</string>
+    <string name="rememberPwd">Remember Pwd</string>
+    <string name="quietLogin">Quiet Login</string>
 </resources>
