@@ -9,7 +9,7 @@
     <RelativeLayout
         android:id="@+id/upload_title"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:background="@color/blue" >
 
         <ImageView
@@ -28,7 +28,7 @@
             android:paddingTop="10dp"
             android:text="@string/string_upload"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
     </RelativeLayout>
 
     <LinearLayout
@@ -37,7 +37,7 @@
 
         <EditText
             android:id="@+id/input_date"
-            android:layout_width="350px"
+            android:layout_width="335dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
             android:hint="@string/string_get_current_position"
@@ -67,19 +67,17 @@
 
         <EditText
             android:id="@+id/text_road_instruction"
-            android:layout_width="290dp"
-            android:layout_height="250dp"
+            android:layout_width="407dp"
+            android:layout_height="380dp"
             android:layout_alignLeft="@+id/input_hint"
             android:layout_below="@+id/input_hint"
-            android:layout_centerInParent="true"
             android:background="@android:drawable/edit_text"
-            android:gravity="top"
             android:scrollbars="vertical" />
 
         <Button
             android:id="@+id/button_upload"
-            android:layout_width="290dp"
-            android:layout_height="wrap_content"
+            android:layout_width="407dp"
+            android:layout_height="60dp"
             android:layout_alignLeft="@+id/text_road_instruction"
             android:layout_below="@+id/text_road_instruction"
             android:text="@string/string_upload"

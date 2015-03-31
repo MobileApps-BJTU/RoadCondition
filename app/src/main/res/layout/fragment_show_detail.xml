@@ -1,13 +1,13 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context="com.example.roadcondition.ShowDetailFragment" >
 
     <RelativeLayout
         android:id="@+id/upload_title"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:background="@color/blue" >
 
         <ImageView
@@ -26,7 +26,7 @@
             android:paddingTop="10dp"
             android:text="@string/string_upload"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
     </RelativeLayout>
 
     <ImageView
@@ -41,7 +41,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp" >
+        android:layout_marginTop="220dp" >
 
         <TextView
             android:id="@+id/from"
