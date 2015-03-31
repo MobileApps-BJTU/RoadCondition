@@ -1,4 +1,4 @@
-package com.example.roadcondition;
+package com.example.ang.roadcondition;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -11,7 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -39,8 +41,10 @@ public class CollectFragment extends ListFragment {
         collects = bundle.getStringArrayList("collects");
         ArrayAdapter<String> list = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, collects);
         setListAdapter(list);
+
         return inflater.inflate(R.layout.fragment_collect, container, false);
     }
+
 
     @Override
     public void onAttach(Activity activity) {
@@ -70,6 +74,14 @@ public class CollectFragment extends ListFragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onActivityCreated(savedInstanceState);
+
+        Button button = (Button) getActivity().findViewById(R.id.addCollect);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.clickButton();
+            }
+        });
 
         AdapterView.OnItemLongClickListener listener = new AdapterView.OnItemLongClickListener() {
             @Override
@@ -115,6 +127,7 @@ public class CollectFragment extends ListFragment {
         // TODO: Update argument type and name
         public void sendToShowDetail(String collect,String infor);
         public void deleteCollect(String collect);
+        public void clickButton();
     }
 
 }

@@ -20,6 +20,18 @@
             android:name=".CollectActivity"
             android:label="@string/title_activity_collect" >
         </activity>
+        <activity
+            android:name=".QueryRouteActivity"
+            android:label="@string/title_activity_query_route" >
+        </activity>
+        <activity
+            android:name=".RouteInfoActivity"
+            android:label="@string/title_activity_routes_info" >
+        </activity>
+        <activity
+            android:name=".Routes_listActivity"
+            android:label="@string/title_activity_routes_list" >
+        </activity>
     </application>
 
 </manifest>
