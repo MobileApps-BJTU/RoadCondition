@@ -14,6 +14,7 @@
     <string name="title_activity_routes_list">Routes_listActivity</string>
     <string name="title_activity_routes_info">RoutesInfoActivity</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_upload">UploadActivity</string>
 
     <string name="query">query you collect route</string>
     <string name="collectList">Collect Route</string>

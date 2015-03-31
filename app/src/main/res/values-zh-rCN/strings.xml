@@ -14,6 +14,7 @@
     <string name="title_activity_routes_list">路段列表</string>
     <string name="title_activity_routes_info">路段信息</string>
     <string name="title_activity_login">登陆</string>
+    <string name="title_activity_upload">上传路段</string>
 
     <string name="query">搜索收藏路段</string>
     <string name="collectList">收藏路段</string>

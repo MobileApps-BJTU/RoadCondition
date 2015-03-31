@@ -27,6 +27,8 @@
             android:name=".Routes_listActivity"
             android:label="@string/title_activity_routes_list" >
         </activity>
+        <activity android:name=".UploadCondition"
+            android:label="@string/title_activity_upload"></activity>
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" >
