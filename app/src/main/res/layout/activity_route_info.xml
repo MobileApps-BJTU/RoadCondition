@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fastScrollEnabled="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/upload_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue" >
+
+        <ImageView
+            android:id="@+id/upload_title_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/collectRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/routeInfo"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:id="@+id/listView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="@string/collect_button"
+        android:id="@+id/button_collect"
+        android:textSize="20sp"
+        android:layout_below="@+id/listView"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fastScrollEnabled="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/upload_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue" >
+
+        <ImageView
+            android:id="@+id/upload_title_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/upload_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/string_upload"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/input_date"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:hint="@string/string_get_current_position"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/button_get"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/string_button_get"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/input_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/string_hint_road_instruction"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/text_road_instruction"
+            android:layout_width="407dp"
+            android:layout_height="380dp"
+            android:layout_alignLeft="@+id/input_hint"
+            android:layout_below="@+id/input_hint"
+            android:background="@android:drawable/edit_text"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="407dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/text_road_instruction"
+            android:layout_below="@+id/text_road_instruction"
+            android:text="@string/string_upload"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

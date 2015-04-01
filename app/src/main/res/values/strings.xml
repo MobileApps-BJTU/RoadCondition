@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoadCondition</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_button_myCollections">My Collections</string>
+    <string name="string_upload">Upload Condition</string>
+    <string name="string_search">Search Condition</string>
+    <string name="string_get_current_position">Please press button to get current position</string>
+    <string name="string_button_get">Get</string>
+    <string name="string_hint_road_instruction">Condition Introduce</string>
+    <string name="title_activity_collect">Collect List</string>
+    <string name="title_activity_query_route">QueryRouteActivity</string>
+    <string name="title_activity_routes_list">Routes_listActivity</string>
+    <string name="title_activity_routes_info">RoutesInfoActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_upload">UploadActivity</string>
+
+    <string name="query">query you collect route</string>
+    <string name="collectList">Collect Route</string>
+    <string name="addCollect">Add Collect</string>
+
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="route">The specific route:</string>
+    <string name="infor">Traffic information:</string>
+    <string name="refresh">Refresh time:</string>
+
+    <string-array name="dialog_items">
+    <item>Delete</item>
+    </string-array>
+    <string name="cancel">Cancel</string>
+    <string name="OK">OK</string>
+    <string name="confirmMessage">Are you sure you want to delete the route \"%s\"?</string>
+
+
+    <string name="city_textview">City</string>
+    <string name="start_textview">From</string>
+    <string name="end_textview">To</string>
+    <string name="search_button">Search</string>
+    <string name="clean_button">Clean</string>
+    <string name="collect_button">Collect Now</string>
+
+    <string name="arrow_textview">----></string>
+
+
+    <string-array name="route_info">
+        　	<item>Distance: 9.9 kilometer</item>
+        　　			<item>Time: About 28 min</item>
+        　　			<item>pass by : FuChenMen South Street</item>
+        　　			<item>                 Picai HuTong</item>
+        <item>                 QianMen West Street</item>
+        　　			<item>                 QianMen East Street</item>
+        <item>Number of traffic light: 4</item>
+        　　			<item>traffic jam rate: 45% </item>
+    </string-array>
+
+    <string-array name="route_name">
+        　         	<item>start-->Aquariums-->XuanWuMen-->end</item>
+        　　			<item>start-->Ditan-->DongDan-->end</item>
+        　　			<item>start-->North Train Station-->XuanWuMen-->end</item>
+        　　
+    </string-array>
+
+    <string-array name="route_detail">
+        　         	<item>1 hour | 12.9km</item>
+        　　			<item>1.2 hour | 13.5km</item>
+        　　			<item>56 min | 10.3km</item>
+        　　
+    </string-array>
+    <string name="routeList">Route List</string>
+    <string name="routeInfo">Route Infor</string>
+    <string name="queryRoute">Query Route</string>
+    <string name="missingMessage">Please enter both start and end</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="viberateOpen">Open Viberate</string>
+    <string name="autoLogin">Auto Login</string>
+    <string name="rememberPwd">Remember Pwd</string>
+    <string name="quietLogin">Quiet Login</string>
+</resources>
