@@ -55,17 +55,17 @@
 
         <Button
             android:id="@+id/button_myCollections"
-            android:layout_width="120dp"
+            android:layout_width="140dp"
             android:layout_height="80dp"
             android:layout_toLeftOf="@+id/button_search"
             android:layout_alignTop="@+id/button_search"
-            android:layout_marginRight="42dp"
+            android:layout_marginRight="20dp"
             android:text="@string/string_button_myCollections"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/button_search"
-            android:layout_width="120dp"
+            android:layout_width="140dp"
             android:layout_height="80dp"
 			android:layout_centerInParent="true"
             android:text="@string/string_search"
@@ -73,11 +73,11 @@
 
         <Button
             android:id="@+id/button_upload"
-            android:layout_width="120dp"
+            android:layout_width="140dp"
             android:layout_height="80dp"
             android:layout_toRightOf="@+id/button_search"
             android:layout_alignTop="@+id/button_search"
-            android:layout_marginLeft="42dp"
+            android:layout_marginLeft="20dp"
             android:text="@string/string_upload"
             android:textSize="20sp" />
     </RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.ang.roadcondition;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -21,7 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Routes_listActivity extends ActionBarActivity {
+public class Routes_listActivity extends Activity {
 
     private TextView textView_start;
     private TextView textView_end;

@@ -1,5 +1,6 @@
 package com.example.ang.roadcondition;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-public class QueryRouteActivity extends ActionBarActivity {
+public class QueryRouteActivity extends Activity {
 
     private static final String[] city={"Beijing","Shanghai","Guangzhou","DaLian","Hongkong"};
     private Button button_search;

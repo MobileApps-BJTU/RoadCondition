@@ -6,8 +6,9 @@
     android:scrollbars="vertical" >
 
     <RelativeLayout
+        android:id="@+id/upload_title"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:background="@color/blue" >
 
         <ImageView
@@ -18,7 +19,7 @@
             android:src="@drawable/back" />
 
         <TextView
-            android:id="@+id/upload_title_text"
+            android:id="@+id/collectRoute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -26,7 +27,7 @@
             android:paddingTop="10dp"
             android:text="@string/routeInfo"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
     </RelativeLayout>
 
     <RelativeLayout

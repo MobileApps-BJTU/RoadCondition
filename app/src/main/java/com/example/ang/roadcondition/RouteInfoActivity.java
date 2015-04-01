@@ -1,5 +1,6 @@
 package com.example.ang.roadcondition;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
@@ -15,7 +16,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class RouteInfoActivity extends ActionBarActivity {
+public class RouteInfoActivity extends Activity {
     private Button button;
     private ListView listView;
     public static SharedPreferences savedRoute;
