@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.roadcondition.CollectFragment" >
+
+        <RelativeLayout
+            android:id="@+id/upload_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/blue" >
+
+            <ImageView
+                android:id="@+id/upload_title_back"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/back" />
+
+           <TextView
+                android:id="@+id/collectRoute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/collectList"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="60dp" >
+
+            <SearchView
+                android:id="@+id/queryText"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:queryHint="@string/query" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="120dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/addCollect"
+            android:text="@string/addCollect"
+            android:textSize="20sp" />
+
+</FrameLayout>

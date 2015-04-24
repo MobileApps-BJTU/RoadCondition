@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fastScrollEnabled="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/homepage_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue" >
+
+        <TextView
+            android:id="@+id/homepage_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/homepage_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_toRightOf="@+id/homepage_name"
+            android:paddingTop="12dp"
+            android:src="@drawable/homepage_logout" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/homepage_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey" >
+
+        <ImageView
+            android:id="@+id/bmapsView"
+            android:layout_width="420dp"
+            android:layout_height="460dp"             
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:src="@drawable/baidu" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/homepage_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey" >
+
+        <Button
+            android:id="@+id/button_myCollections"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_toLeftOf="@+id/button_search"
+            android:layout_alignTop="@+id/button_search"
+            android:layout_marginRight="20dp"
+            android:text="@string/string_button_myCollections"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+			android:layout_centerInParent="true"
+            android:text="@string/string_search"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/button_search"
+            android:layout_alignTop="@+id/button_search"
+            android:layout_marginLeft="20dp"
+            android:text="@string/string_upload"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>
